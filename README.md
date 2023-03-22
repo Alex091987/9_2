@@ -30,7 +30,7 @@
  - systemctl restart zabbix-server zabbix-agent nginx php7.4-fpm
  - systemctl enable zabbix-server zabbix-agent nginx php7.4-fpm
 
--![Скриншот авторизации](./img/1.jpg)
+-![Скриншот авторизации](./img/1_1.jpg)
 
 ### Задание 2
 
