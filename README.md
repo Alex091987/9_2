@@ -26,7 +26,7 @@
 
 -7. `Раскомментируем в файле /etc/zabbix/nginx.conf  директивы 'listen' и 'server_name'. Незабываем присваивать server_name.`
 
--8. `Запустим процессы Zabbix и добвим в автозагрузку:`
+-8. `Запустим процессы Zabbix и добавим в автозагрузку:`
  - systemctl restart zabbix-server zabbix-agent nginx php7.4-fpm
  - systemctl enable zabbix-server zabbix-agent nginx php7.4-fpm
 
